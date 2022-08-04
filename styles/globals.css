@@ -1,0 +1,13 @@
+*{
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+  background: #FFE6E6;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}

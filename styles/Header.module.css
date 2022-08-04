@@ -1,0 +1,41 @@
+.header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: #000000;
+    color: white;
+  }
+
+  .logoTitle{
+    font-size: 1.8rem;
+    margin-right: auto;
+    transition: .5s;
+  }
+
+  .logoTitle a{
+    background-color: #fff;
+  }
+
+  .logoTitle:hover{
+    color: #FF2626;
+  }
+
+  .logoImage{
+    width: 50px;
+    margin-left: 1rem;
+  }
+
+  .linksContainer a{
+    color: white;
+    font-weight: 600;
+    font-size: 1.4rem;
+    text-decoration: none;
+    padding: 22px 1rem;
+    transition: .5s;
+  }
+  
+  .linksContainer a:hover{
+    background-color: #fff;
+    color: black;
+  }
