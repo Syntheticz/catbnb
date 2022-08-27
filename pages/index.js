@@ -13,7 +13,7 @@ import 'semantic-ui-css/semantic.min.css'
 
 
 export async function getServerSideProps(){
-  const res = await fetch('http://localhost:3000/api');
+  const res = await fetch('https://catbnb.ml/api');
   const cats = await res.json();
 
   return {props: {cats}}
