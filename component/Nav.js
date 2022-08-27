@@ -12,8 +12,8 @@ export default function Header() {
         </span> 
         <a href="#" className={style.logoTitle}><h3 >Genesis</h3></a>
         <div className={style.linksContainer}>
-            <Link href="#"><a>Home</a></Link>
-            <Link href="#"><a>Pricing</a></Link>
+            <Link href="/"><a>Home</a></Link>
+            <Link href="/AddCat"><a>Pricing</a></Link>
             <Link href="#"><a>About</a></Link>
         </div>
     </div>

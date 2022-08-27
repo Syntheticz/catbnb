@@ -8,8 +8,12 @@
   }
 
   .logoTitle{
-    font-size: 1.8rem;
     margin-right: auto;
+  }
+
+  .logoTitle h3{
+    font-size: 1.8rem;
+    color: #F5F5F5;
     transition: .5s;
   }
 
@@ -17,7 +21,7 @@
     background-color: #fff;
   }
 
-  .logoTitle:hover{
+  .logoTitle h3:hover{
     color: #FF2626;
   }
 
@@ -38,4 +42,10 @@
   .linksContainer a:hover{
     background-color: #fff;
     color: black;
+  }
+
+  @media only screen and (max-width: 500px) {
+    .header {
+      width: 140%;
+    }
   }

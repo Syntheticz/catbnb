@@ -1,0 +1,53 @@
+.body{
+    height: 100%;
+}
+
+.button{
+    position: absolute;
+    bottom: 0;
+    margin: 1rem 0 !important;
+ 
+}
+
+.cardsContainer{
+    position: relative;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    max-height: 60vh;
+    margin: 2rem 1.5rem;
+}
+
+.cardContainer{
+    margin: 1rem;
+}
+
+.dummy{
+    width: 100%;
+    height: 100%;
+}
+
+.card{
+    height: 400px;
+}
+
+.link{
+    position: absolute;
+    bottom: 20px;
+    background-color: #F05454;
+    color: white;
+    font-weight: 600;
+    font-size: 1.25rem;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.link:hover{
+    color: #4e7399;
+}
+
+@media (max-height: 680px), screen and (orientation: portrait) {
+    .cardsContainer{
+        max-height: 310vh;
+    }
+}
