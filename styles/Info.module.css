@@ -143,4 +143,12 @@
 }
 
 
+@media (max-height: 680px), screen and (orientation: portrait) {
+    .container{
+        width: 135vw;
+    }
+    .banner{
+        width: 145vw;
+    }
+}
 

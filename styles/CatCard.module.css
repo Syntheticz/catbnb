@@ -49,5 +49,10 @@
 @media (max-height: 680px), screen and (orientation: portrait) {
     .cardsContainer{
         max-height: 310vh;
+        width: 135%;
+    }
+
+    .dummy{
+        height:100%;
     }
 }

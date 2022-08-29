@@ -10,3 +10,9 @@
 .footer p{
     margin-left: 1rem;
 }
+
+@media (max-height: 680px), screen and (orientation: portrait) {
+    .footer{
+        width: 140vw;
+    }
+}
